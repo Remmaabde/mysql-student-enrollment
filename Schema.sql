@@ -1,14 +1,14 @@
 -- CREATE DATABASE SchoolDB;
 -- USE SchoolDB;
-/*CREATE TABLE Students(
+CREATE TABLE Students(
     ID INT  PRIMARY KEY,
     name VARCHAR(30),
     email VARCHAR(50),
     dob DATE,
     program VARCHAR(50)
 )
-*/
-/*
+
+
 CREATE TABLE Courses(
     ID INT PRIMARY KEY,
     course_name VARCHAR(70),
