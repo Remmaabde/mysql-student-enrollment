@@ -8,14 +8,13 @@ CREATE TABLE Students(
     program VARCHAR(50)
 )
 
-
 CREATE TABLE Courses(
     ID INT PRIMARY KEY,
     course_name VARCHAR(70),
     course_code VARCHAR(30),
     Instructor VARCHAR(50)
 )
-*/
+
 DESCRIBE Enrollments;
 
 CREATE TABLE Enrollments (
