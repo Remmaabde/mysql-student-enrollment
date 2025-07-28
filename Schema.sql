@@ -1,0 +1,3 @@
+-- CREATE DATABASE SchoolDB;
+USE SchoolDB;
+
