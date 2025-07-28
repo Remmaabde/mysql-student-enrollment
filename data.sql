@@ -1,4 +1,3 @@
---SELECT * FROM students
 INSERT INTO students (ID,name,email,dob, program) VALUES
 (1,'Selma Sualih','Selma2@gmail.com','2005-07-11','Political Science'),
 (2,'Hanan Abdella','Hani3@gmail.com','1999-10-12','Marketing'),
@@ -17,3 +16,10 @@ INSERT INTO Enrollments (student_id, course_id, date_enrolled) VALUES
 (3,102,'2023-09-03'),
 (4,103,'2023-09-04'),
 (5,101,'2023-09-05');
+
+SELECT * FROM Students;
+
+DELETE FROM Enrollments;
+DELETE FROM Courses;
+DELETE FROM Students;
+
